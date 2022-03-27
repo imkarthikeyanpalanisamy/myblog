@@ -1,0 +1,131 @@
+
+   body{
+            background:rgba(253, 115, 72, 0.589);
+            height: 625px;
+            background-size: cover;
+            background-position: center center;
+            position: relative;
+            box-sizing: border-box;
+            -webkit-background-size: cover;
+
+        }
+   footer{
+      text-align:center;
+      font-style:italic ;
+      font-weight:lighter;
+      font-size:20px;
+   } 
+   #image{
+      text-align:center;
+      justify-content:left;
+   }
+   .line{
+      text-align: center;
+      font-size:25px;
+      font-family: 'Times New Roman', Times, serif;
+      font-style:italic ;
+      font-weight:bold;
+      font-variant:normal;
+   }
+   .line1{
+      text-align: justify;
+      font-size:18px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-style:italic ;
+      font-weight:lighter;
+      font-variant:normal;
+
+   }
+   .heading1{
+      text-align: justify;
+      font-size:18px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-style:normal;
+      font-weight:bold;
+      font-variant:normal;
+
+   }
+
+   .heading2{
+      text-align: justify;
+      font-size:15px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-style:normal;
+      font-weight:bolder;
+      font-variant:normal;
+
+   }
+   .heading3{
+      text-align: center;
+      font-size:18px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-style:normal;
+      font-weight:lighter;
+      font-variant:normal;
+
+   }
+   .heading4{
+      text-align:justify;
+      font-size:18px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-style:normal;
+      font-weight:bold;
+      font-variant:normal;
+
+   }
+   .heading6{
+      text-align: justify;
+      font-size:18px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-style:normal;
+      font-weight:lighter;
+      font-variant:normal;
+
+   }
+   .heading7,.heading8{
+      text-align:justify;
+      font-size:18px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-style:normal;
+      font-weight:lighter;
+      font-variant:normal;
+
+   }
+   .heading{
+      text-align: center;
+      text-shadow:2px 2px rgb(49, 43, 43);
+      font-weight:bolder;
+      font-size:20px;
+
+   }
+   button{
+      width:150px;
+      height:25px;
+      background-color: rgba(253, 114, 72, 0.349);
+      border:2px solid black;
+      border-radius:5px;
+      text-align: center;
+      margin-left: 100px;
+      cursor: pointer;
+      margin-left:0px;
+   }
+   .btn{
+      cursor: pointer;
+   }
+   img{
+     border-radius: 50%;
+   }
+   form{
+      width:max-content;
+      margin-left: 500px; 
+   }
+   h2{
+      text-align: center;
+   }
+   legend{
+      text-align:center;
+   }
+   h1{
+      text-align: center;
+   }
+   
