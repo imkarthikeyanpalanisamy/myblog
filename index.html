@@ -5,7 +5,7 @@
    
     <title>MY BLOG</title>
     <link rel="icon" href="./My image.jpeg">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="myblog.css"> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale 1.0, maximum-scale 1.0 user-scalable-0">
@@ -16,47 +16,51 @@
     <!--header tag starts-->
 <header> 
     <fieldset>
-    <legend><h1 id="top">MY BLOG</h1></legend>
-    <button><a href="#bottom">go to bottom</a></button><br>
-</fieldset>
+    <legend class="heading"><h1 id="top">MY BLOG</h1></legend>
+    <button ><a href="#bottom">go to bottom</a></button><br>
+    </fieldset>
     <nav>
-        <fieldset>
-        <legend><h2><u>Home</u></h2></legend>
+        <fieldset class="heading2">
+        <legend><h2 class="heading1" ><u>Home</u></h2></legend>
         <ol type="1">
         <li><a href="#About Me">About Me</a><br></li>
         <li><a href="#Skills">Skills</a><br></li>
         <li><a href="#Internship experience">Internship Experience</a><br></li>
         <li><a href="#Contact">Contact</a><br></li>
         </ol>
-    </fieldset>
+       </fieldset>
     </nav>
 </header>
 <!--header tag ends-->
 
 <!--main tag starts-->
-<main>
-    <div id="About Me">
+<main >
         <fieldset>
-        <legend><h2><u>About Me</u></h2></legend>
-        <img src="./My image.jpeg" height ="100"alt="myphoto" >
-        <p><q><i>I'm a person who always passionate to work with digital marketing & Information technology</q></i></p>
-            <p>I'm Karthikeyan P, from Trichy and I am currently pursuing a bachelor of engineering in the stream of
+        <legend><h2 class="heading1"><u><b>About Me</b></u></h2></legend>
+<div id="flex">
+    <div id="image">
+        <img src="./My image.jpeg" height ="200"alt="myphoto" >
+    </div>
+    <div id="About Me" >
+        <p class="line"><q><i>I'm a person who always passionate to work with digital marketing & Information technology</q></i></p>
+            <p class="line1">I'm Karthikeyan P, from Trichy and I am currently pursuing a bachelor of engineering in the stream of
             mechanical engineering at K.Ramakrishnan college of engineering in Trichy. In our family we are four
             members, my father's name is Palanisamy T and my mother's name is Chitra P and I have one younger brother
             his name is Naveen Kumar P. My interests are in digital marketing, data analytics, web designing. I have
             known the major techniques in digital marketing techniques such as SEO, SMM, SEM, and google analytics, and
-            also I have done a few internships in digital marketing. I have basic knowledge in Html5, Css3, C, Python,
+             also I have done a few internships in digital marketing. I have basic knowledge in Html5, Css3, C, Python,
             SQL, and javascript. My strength is being punctual and very adaptive. I can easily adapt to new technologies
             and my hobbies are playing games like cricket, volleyball, and watching movies. My goal is to become a good
-            IT professional.<br>
-
-            </p>
+            IT professional.</p>
+    </div>  
+    <br>
+</div>
             <button><a href="Karthikeyan-Palanisamy-Resume- Profile-CV.pdf" download type=".pdf">Download Resume</a></button>
             <div id="Educational Qualifications">
-                <h2>Educational Qualifications</h2>
+                <h2 class="heading1"><b>Educational Qualifications</b></h2>
                 <hr>
                 <p>
-                <table border="1" width="300">
+                <table border="1" width="300" class="heading3">
                     <thead>
                         <th colspan="6">
                             Educational Details
@@ -99,37 +103,52 @@
                 </p>
                 </table>
             </div>
-            <br>
-</fieldset>
-    <div id="skills">
+        </fieldset>
+        <br>
+</main>
+    <div id="Skills">
         <fieldset>
-       <legend><h2><u>Skills</u></h2></legend> 
+       <legend><h2 class="heading6"><u><b>Skills</b></u></h2></legend> 
         <p>
-        <ul type="square">
-            <li>Search engine optimization (SEO)</li><br>
-            <progress value="75" max="100"></progress><br>
-            <li>Search engine marketing (SEM)</li><br>
-            <progress value="70" max="100"></progress><br>
-            <li>Social media marketing (SMM)</li><br>
-            <progress value="65" max="100"></progress><br>
-            <li>Social media optimization (SMO)</li><br>
-            <progress value="60" max="100"></progress><br>
-            <li>Web designing(wordpress)</li><br>
-            <progress value="80" max="100"></progress><br>
-            <li> Punctual</li><br>
-            <progress value="99" max="100"></progress><br>
-            <li>Good team player & Good team leader</li><br>
+        <ul type="square" class="heading4">
+            <li>Search engine optimization (SEO)</li>
+            <progress value="75" max="100"></progress>
+            <br>
+            <br>
+            <li>Search engine marketing (SEM)</li>
+            <progress value="70" max="100"></progress>
+            <br>
+            <br>
+            <li>Social media marketing (SMM)</li>
+            <progress value="65" max="100"></progress>
+            <br>
+            <br>
+            <li>Social media optimization (SMO)</li>
+            <progress value="60" max="100"></progress>
+            <br>
+            <br>
+            <li>Web designing(wordpress)<br>
+            <progress value="80" max="100"></progress>
+            <br>
+            <br>
+            <li> Punctual</li>
+            <progress value="99" max="100"></progress>
+            <br>
+            <br>
+            <li>Good team player & Good team leader</li>
             <progress value="90" max="100"></progress><br>
-            <li>Technical skills (HTML5,CSS3,JS,C,Python and SQL)</li><br>
-            <progress value="70" max="100"></progress><br>
+            <br>
+            <br>
+            <li>Technical skills (HTML5,CSS3,JS,C,Python and SQL)</li>
+            <progress value="70" max="100"></progress>
         </ul>
         </p>
     </div>
     
-    <div id="Internship Experience">
+    <div id="Internship experience"  class="heading7">
         <p>
             <fieldset>
-        <legend><h2>Internship Experience</h2></legend>
+        <legend><h2><u>Internship Experience</u></h2></legend>
         <h3><b><i>1) Digital Marketing Internship
                     (07-Apr-2021 to 07-nov-2021)</i></b></h3>
 
@@ -200,9 +219,9 @@
         </p>
     </fieldset>
     </div>
-    <div id="Contact">
+    <div id="Contact"class="heading8">
         <fieldset>
-        <Legend><h2><u>Contact</u></h2></Legend>
+        <Legend><h2 ><u>Contact</u></h2></Legend>
         <address>
             KARTHIKEYAN P,<br>
             Ph No:+91-6382883764<br>
@@ -215,14 +234,14 @@
 </main>
 <br>
 <!--main tag ends-->
- 
-    
 <!--Footer tag starts-->
 <fieldset>
-    <legend><button><a href="#top">go to top</a></button></legend>
+    <legend >
+        <button><a href="#top">go to top</a></button>
+    </legend>
     <div id="bottom"></div>
     <footer>
-        <p>Copyright &copy; 2022Karthikeyan Palanisamy. Designed by karthikeyanpalanisamy</p>
+        <p >Copyright &copy; 2022Karthikeyan Palanisamy. Designed by karthikeyanpalanisamy</p>
     </footer>
 </fieldset>
 <!--Footer tag ends-->
